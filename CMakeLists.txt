@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8.9)
 set(LsdSlam_PROJECT_NAME lsd_slam_and_apps)
+set(G2O_EXT_CSPARSE  /usr/local/lib/libg2o_ext_csparse_d.so)
 project(${LsdSlam_PROJECT_NAME})
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)  # for organizing code to folders
 
