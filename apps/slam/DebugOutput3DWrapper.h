@@ -92,7 +92,7 @@ public:
 
 	virtual void publishKeyframeGraph(KeyFrameGraph* graph);
 
-	// publishes a keyframe. if that frame already existis, it is overwritten, otherwise it is added.
+	// publishes a keyframe. if that frame already exists, it is overwritten, otherwise it is added.
 	virtual void publishKeyframe(Frame* f);
 
 	// published a tracked frame that did not become a keyframe (i.e. has no depth data)

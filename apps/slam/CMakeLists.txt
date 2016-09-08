@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 2.8.9)
 project(slam_app)
 
+SET(GCC_COVERAGE_COMPILE_FLAGS "-g")
+add_definitions(${GCC_COVERAGE_COMPILE_FLAGS})
+
 ## demos
 #add_executable(main_on_images main_on_images.cc)
 #set_property(TARGET main_on_images PROPERTY FOLDER "lsd_slam/apps")

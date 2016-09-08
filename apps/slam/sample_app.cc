@@ -58,12 +58,12 @@ int main(int argc, char** argv) {
 	//	IplImage* frame = cvQueryFrame(capture); //Create image frames from capture
 	//	TimestampedMat bufferItem;
 	//	bufferItem.timestamp = Timestamp::now();
-	//	
+	//
 	//	cv::Mat mymat = cv::Mat(frame, true);
 
-	//	
+	//
 	//	undistorter->undistort(frame, mymat);
-	//    
+	//
 	//	cvShowImage("Camera_Output", frame); //Show image frames on created window
 	//	cv::imshow("Camera_Output_Undist", mymat);
 	//	key = cvWaitKey(10); //Capture Keyboard stroke
